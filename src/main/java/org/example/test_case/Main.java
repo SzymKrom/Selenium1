@@ -1,5 +1,6 @@
-package org.example;
+package org.example.test_case;
 
+import org.example.pages.HomePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,18 +16,10 @@ public class Main {
         WebDriver driver = new ChromeDriver(options);
         driver.get("https://demoqa.com/books");
         driver.manage().window().maximize();
-        driver.findElement(By.id("login")).click();
-        driver.findElement(By.id("userName")).sendKeys("gunjankaushik");
-        driver.findElement(By.id("password")).sendKeys("Password@123");
-        driver.findElement(By.id("login")).click();
-        //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
-        System.out.println("Witamy na stronie:" + driver.getCurrentUrl());
-        driver.quit();
+        HomePage homePage = new HomePage(driver);
+        homePage.loginClick();
+
+
     }
 }
 
