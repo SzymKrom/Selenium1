@@ -1,6 +1,7 @@
 package org.example.test_case;
 
 import org.example.pages.HomePage;
+import org.example.pages.LoginPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -16,8 +17,14 @@ public class Main {
         WebDriver driver = new ChromeDriver(options);
         driver.get("https://demoqa.com/books");
         driver.manage().window().maximize();
+
         HomePage homePage = new HomePage(driver);
+        LoginPage loginPage = new LoginPage(driver);
+
         homePage.loginClick();
+        loginPage.enterUserName("gunjankaushik");
+
+
 
 
     }
