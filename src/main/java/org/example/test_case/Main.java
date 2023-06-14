@@ -23,6 +23,7 @@ public class Main {
 
         homePage.loginClick();
         loginPage.enterUserName("gunjankaushik");
+        loginPage.enterPassword("Password@123");
 
 
 

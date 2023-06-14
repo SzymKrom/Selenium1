@@ -14,6 +14,7 @@ public class HomePage {
     By loginButton = By.id("login");
 
     public void loginClick() {
+
         driver.findElement(loginButton).click();
     }
 
