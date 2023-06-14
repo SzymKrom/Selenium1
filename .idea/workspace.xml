@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07c751b8-2ede-44d2-8021-d2ebf3881129" name="Changes" comment="dodalismy wpisanie logowania">
+    <list default="true" id="07c751b8-2ede-44d2-8021-d2ebf3881129" name="Changes" comment="dodalismy wpisanie hasla">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/test_case/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test_case/Main.java" afterDir="false" />
     </list>
@@ -122,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686596971183</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="dodalismy wpisanie hasla">
+      <created>1686759881124</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686759881124</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,6 +148,13 @@
                   </entry>
                 </map>
               </option>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="66" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="57" />
+                  <entry key="Table.Space.CommitStatus.ColumnIdWidth" value="56" />
+                </map>
+              </option>
             </State>
           </value>
         </entry>
@@ -153,6 +166,7 @@
     <MESSAGE value="dodanie logowania" />
     <MESSAGE value="stworzenie nowej metody homepage" />
     <MESSAGE value="dodalismy wpisanie logowania" />
-    <option name="LAST_COMMIT_MESSAGE" value="dodalismy wpisanie logowania" />
+    <MESSAGE value="dodalismy wpisanie hasla" />
+    <option name="LAST_COMMIT_MESSAGE" value="dodalismy wpisanie hasla" />
   </component>
 </project>
